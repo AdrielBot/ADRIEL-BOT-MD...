@@ -91,10 +91,10 @@ global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', 
 global.packname = `👑 ➢ CREADOR POR:\n📅 ➢ Día:\n🗓️ ➢ Fecha:`
 global.author = ` DORRAT-BOT\n• ${dia}\n• ${fecha}`
 //_______________
-global.wm = '𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 𝐀𝐥𝐞'
-global.db3t = `𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 𝐀𝐥𝐞`
+global.wm = '𝐆𝐞𝐫𝐢𝐏𝐢𝐮𝐦'
+global.db3t = `𝐆𝐞𝐫𝐢𝐏𝐢𝐮𝐦`
 global.wm3 = db3t
-global.igfg = '𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 𝐀𝐥𝐞'
+global.igfg = '𝐆𝐞𝐫𝐢𝐏𝐢𝐮𝐦'
 global.wait = '*[❕] CARGANDO POR FAVOR ESPERA...*'
 //-------------------
 global.md = 'https://chat.whatsapp.com/JOkFXt2T0kNFN0vkiModTx'
