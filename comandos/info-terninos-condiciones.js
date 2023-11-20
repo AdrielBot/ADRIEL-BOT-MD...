@@ -63,7 +63,7 @@ _- Al hacer uso de ciertos comandos que tengan como objetivo socavar la incomodi
 *CUENTA OFICIAL DE ASISTENCIA - WHATSAPP*
 ~ _Solo en esta Cuenta Respondo si tiene Dudas, Preguntas o Necesita Ayuda sobre DorratBot, También puede Comunicarse en Caso de Temas de Colaboración_
 *Wa.me/593959425714*
-*~ Muchas Gracias Por tomarte el tiempo en informate sobre DorratBot
+*~ Muchas Gracias Por tomarte el tiempo en informate sobre Adrielbot
 `.trim()
 
 conn.sendButton(m.chat, terminoA, terminoB, pp, [
