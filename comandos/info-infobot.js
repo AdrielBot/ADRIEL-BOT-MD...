@@ -20,10 +20,10 @@ let neww = performance.now()
 let speed = neww - old
 
 let info = `
-╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
+╠═〘 𝐈𝐍𝐅𝐎 𝐀𝐃𝐑𝐈𝐄𝐋-𝐁𝐎𝐓 〙 ═
 ╠
-╠➢ [🤴🏻] *CREADOR: Geri*
-╠➢ [#️⃣] *NUMERO: +56 9 5439 0663*
+╠➢ [🤴🏻] *CREADOR: KARIM*
+╠➢ [#️⃣] *NUMERO: +591 68683798*
 ╠➢ [🎳] *PREFIJO: ${usedPrefix}*
 ╠➢ [🔐] *CHATS PRIVADOS: ${chats.length - groups.length}*
 ╠➢ [🦜] *CHAT DE GRUPOS: ${groups.length}* 
@@ -40,7 +40,7 @@ let info = `
 ╠➢ [👨‍🦯] *VELOCIDAD*: 
 ╠  *${speed} ms* 
 ╠
-╠═〘 𝐆𝐞𝐫𝐢𝐏𝐢𝐮𝐦 〙 ═
+╠═〘 𝐀𝐝𝐫𝐢𝐞𝐥𝐁𝐨𝐭 〙 ═
 `.trim() 
 conn.sendButton(m.chat, info, wm, pp, [
 ['📦 𝐆𝐑𝐔𝐏𝐎𝐒', '#grupos'],
