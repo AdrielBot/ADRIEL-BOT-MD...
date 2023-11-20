@@ -43,100 +43,99 @@ let menuA = `
 *┃╭━━━━━━━━━━━━━━━━╾•*
 *┃┃  ❍ ${ucapan()} ❍*
 *┃┣━━━━━━━━━━━━━━━━╾•*
-*┃┃ ▢ VERSION » ${vs}*
-*┃┃ ▢ FECHA » ${week}, ${date}*
-*┃┃ ▢ TIEMPO ACTIVO » ${uptime}*
-*┃┃ ▢ LIBRERIA » ${library}*
-*┃┃ ▢ LENGUAJE » 𝐄𝐒𝐏𝐀𝐍̃𝐎𝐋*
-*┃┃ ▢ USUARIOS » ${Object.keys(global.db.data.users).length}*
+*┃┃ ▢ 𝙑𝙀𝙍𝙎𝙄𝙊𝙉 » ${vs}*
+*┃┃ ▢ 𝙁𝙀𝘾𝙃𝘼 » ${week}, ${date}*
+*┃┃ ▢ 𝙏𝙄𝙀𝙈𝙋𝙊 𝘼𝘾𝙏𝙄𝙑𝙊 » ${uptime}*
+*┃┃ ▢ 𝙇𝙀𝙉𝙂𝙐𝘼𝙅𝙀 » 𝐄𝐒𝐏𝐀𝐍̃𝐎𝐋*
+*┃┃ ▢ 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 » ${Object.keys(global.db.data.users).length}*
 *┃╰━━━━━━━━━━━━━━━━╾•*
 *╰━━━╼𝐀𝐝𝐫𝐢𝐞𝐥𝐁𝐨𝐭𝖙╾━━━╯*`.trim()
 
 let menuB = `
 *═〔 INFO DEL USUARIO 〕⬣═*
-*║👤 NOMBRE: ${username}*
-*║🧰 EXPERIENCIA ➟ ${exp}*
-*║⚓ RANGO ➟* ${role}*
-*║💎 DIAMANTES ➟ ${limit}*
-*║🪙 DORRAT-COINS ➟ ${dorracoins}*
+*║👤 𝙉𝙊𝙈𝘽𝙍𝙀: ${username}*
+*║🧰 𝙀𝙓𝙋𝙀𝙍𝙄𝙀𝙉𝘾𝙄𝘼 ➟ ${exp}*
+*║⚓ 𝙍𝘼𝙉𝙂𝙊 ➟* ${role}*
+*║💎 𝘿𝙄𝘼𝙈𝘼𝙉𝙏𝙀𝙎 ➟ ${limit}*
+*║👾 𝘼𝘿𝙍𝙄-𝘾𝙊𝙄𝙉𝙎 ➟ ${adricoins}*
 *╰══*═════════════ *✧*
 
 ┌──「📦𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍」─
-├➢ _${usedPrefix}grupos_
-├➢ _${usedPrefix}estado_
-├➢ _${usedPrefix}terminos_
-├➢ _${usedPrefix}instalarbot_
-├➢ _${usedPrefix}infobot_
-├➢ _${usedPrefix}grouplist_
-├➢ _${usedPrefix}owner_
-├➢ _${usedPrefix}script_
-├➢ _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
+├📂 _${usedPrefix}grupos_
+├📂 _${usedPrefix}estado_
+├📂 _${usedPrefix}terminos_
+├📂 _${usedPrefix}instalarbot_
+├📂 _${usedPrefix}infobot_
+├📂 _${usedPrefix}grouplist_
+├📂 _${usedPrefix}owner_
+├📂 _${usedPrefix}script_
+├📂 _Bot_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┏━━━━━━━━━━━━━┓.
 ┃ *<UNE UN BOT A TU GRUPO/>*
 ║≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋
 ┣ ➱_${usedPrefix}join *link del grupo*_ 
-┣ ➱_*minimo 30 miembros*_
+┣ ➱_*minimo 20 miembros*_
 ┗━━━━━━━━━━━━━┛
 
 ┌──「🖥️𝐒𝐄𝐑𝐁𝐎𝐓 - 𝐉𝐀𝐃𝐈𝐁𝐎𝐓」─
-├➢_${usedPrefix}serbot_
-├➢_${usedPrefix}stop_
-├➢_${usedPrefix}bots_
+├🤖_${usedPrefix}serbot_
+├🤖_${usedPrefix}stop_
+├🤖_${usedPrefix}bots_
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌──「🌱𝐑𝐏𝐆」─
-├➢${usedPrefix}cazar
-├➢${usedPrefix}aventura
-├➢${usedPrefix}balance
-├➢${usedPrefix}claim
-├➢${usedPrefix}top
-├➢${usedPrefix}heal
-├➢${usedPrefix}cartera
-├➢${usedPrefix}inventory 
-├➢${usedPrefix}levelup
-├➢${usedPrefix}myns
-├➢${usedPrefix}perfil
-├➢${usedPrefix}work
-├➢${usedPrefix}rob <@tag
-├➢${usedPrefix}minar
-├➢${usedPrefix}buy
-├➢${usedPrefix}minardiamantes 
-├➢${usedPrefix}minardorracoins 
-├➢${usedPrefix}transfer <tipo> <cantidad> <@tag
-├➢${usedPrefix}verificar
-├➢${usedPrefix}unreg <numero de serie>
+├🏕️${usedPrefix}cazar
+├🏕️${usedPrefix}aventura
+├🏕️${usedPrefix}balance
+├🏕️${usedPrefix}claim
+├🏕️${usedPrefix}top
+├🏕️${usedPrefix}heal
+├🏕️${usedPrefix}cartera
+├🏕️${usedPrefix}inventory 
+├🏕️${usedPrefix}levelup
+├🏕️${usedPrefix}myns
+├🏕️${usedPrefix}perfil
+├🏕️${usedPrefix}work
+├🏕️${usedPrefix}rob <@tag
+├🏕️${usedPrefix}minar
+├🏕️${usedPrefix}buy
+├🏕️${usedPrefix}minardiamantes 
+├🏕️${usedPrefix}minardorracoins 
+├🏕️${usedPrefix}transfer <tipo> <cantidad> <@tag
+├🏕️${usedPrefix}verificar
+├🏕️${usedPrefix}unreg <numero de serie>
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌──「🎮𝐆𝐀𝐌𝐄」─
-├➢${usedPrefix}suitpvp <@tag>
-├➢${usedPrefix}mates <noob / easy / medium / hard / extreme /impossible /impossible2>
-├➢${usedPrefix}ppt <papel / tijera /piedra
-├➢${usedPrefix}prostituto <nombre / @tag
-├➢${usedPrefix}prostituta <nombre / @tag
-├➢${usedPrefix}hetero <nombre / @tag
-├➢${usedPrefix}gay2 <nombre / @tag
-├➢${usedPrefix}lesbiana <nombre / @tag
-├➢${usedPrefix}pajero <nombre / @tag
-├➢${usedPrefix}pajera <nombre / @tag
-├➢${usedPrefix}puto <nombre / @tag
-├➢${usedPrefix}puta <nombre / @tag
-├➢${usedPrefix}manco <nombre / @tag
-├➢${usedPrefix}manca <nombre / @tag
-├➢${usedPrefix}rata <nombre / @tag
-├➢${usedPrefix}love <nombre / @tag
-├➢${usedPrefix}doxear <nombre / @tag
-├➢${usedPrefix}pregunta <texto
-├➢${usedPrefix}slot <apuesta
-├➢${usedPrefix}simi <texto
-├➢${usedPrefix}topgays
-├➢${usedPrefix}topotakus
-├➢${usedPrefix}formarpareja
-├➢${usedPrefix}formarpareja5 
-├➢${usedPrefix}amistad
-├➢${usedPrefix}verdad
-├➢${usedPrefix}reto
+├🕹️${usedPrefix}suitpvp <@tag>
+├🕹️${usedPrefix}mates <noob / easy / medium / hard / extreme /impossible /impossible2>
+├🕹️${usedPrefix}ppt <papel / tijera /piedra
+├🕹️${usedPrefix}prostituto <nombre / @tag
+├🕹️${usedPrefix}prostituta <nombre / @tag
+├🕹️${usedPrefix}hetero <nombre / @tag
+├🕹️${usedPrefix}gay2 <nombre / @tag
+├🕹️${usedPrefix}lesbiana <nombre / @tag
+├🕹️${usedPrefix}pajero <nombre / @tag
+├🕹️${usedPrefix}pajera <nombre / @tag
+├🕹️${usedPrefix}puto <nombre / @tag
+├🕹️${usedPrefix}puta <nombre / @tag
+├🕹️${usedPrefix}manco <nombre / @tag
+├🕹️${usedPrefix}manca <nombre / @tag
+├🕹️${usedPrefix}rata <nombre / @tag
+├🕹️${usedPrefix}love <nombre / @tag
+├🕹️${usedPrefix}doxear <nombre / @tag
+├🕹️${usedPrefix}pregunta <texto
+├🕹️${usedPrefix}slot <apuesta
+├🕹️${usedPrefix}simi <texto
+├🕹️${usedPrefix}topgays
+├🕹️${usedPrefix}topotakus
+├🕹️${usedPrefix}formarpareja
+├🕹️${usedPrefix}formarpareja5 
+├🕹️${usedPrefix}amistad
+├🕹️${usedPrefix}verdad
+├🕹️${usedPrefix}reto
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌「🕋𝐏𝐑𝐄𝐍𝐃𝐄𝐑 𝐘 𝐀𝐏𝐀𝐆𝐀𝐑 」
@@ -168,25 +167,25 @@ let menuB = `
 └────ׂ─ׂ─ׂ─ׂ───
 
 ┌─「💻𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑」
-├➢${usedPrefix}facebook <enlace / link / url
-├➢${usedPrefix}instagram <enlace / link / url
-├➢${usedPrefix}mediafire <enlace / link / url
-├➢${usedPrefix}instagram <enlace / link / url
-├➢${usedPrefix}gitclone <enlace / link / url
-├➢${usedPrefix}tiktok <enlace / link / url
-├➢${usedPrefix}ytmp3 <enlace / link / url
-├➢${usedPrefix}ytmp4 <enlace / link / url
-├➢${usedPrefix}play.1 <texto / enlace / link / url
-├➢${usedPrefix}play.2 <texto / enlace / link / url
-├➢${usedPrefix}play <texto
-├➢${usedPrefix}spotify <texto
-├➢${usedPrefix}imagen <texto
-├➢${usedPrefix}pinteret <texto
-├➢${usedPrefix}wallpaper <texto
-├➢${usedPrefix}wallpaper2 <texto
-├➢${usedPrefix}pptiktok <nombre de usuario
-├➢${usedPrefix}igstalk <nombre de usuario
-├➢${usedPrefix}tiktokstalk <nombre de usuario
+├💻${usedPrefix}facebook <enlace / link / url
+├💻${usedPrefix}instagram <enlace / link / url
+├💻${usedPrefix}mediafire <enlace / link / url
+├💻${usedPrefix}instagram <enlace / link / url
+├💻${usedPrefix}gitclone <enlace / link / url
+├💻${usedPrefix}tiktok <enlace / link / url
+├💻${usedPrefix}ytmp3 <enlace / link / url
+├💻${usedPrefix}ytmp4 <enlace / link / url
+├💻${usedPrefix}play.1 <texto / enlace / link / url
+├💻${usedPrefix}play.2 <texto / enlace / link / url
+├💻${usedPrefix}play <texto
+├💻${usedPrefix}spotify <texto
+├💻${usedPrefix}imagen <texto
+├💻${usedPrefix}pinteret <texto
+├💻${usedPrefix}wallpaper <texto
+├💻${usedPrefix}wallpaper2 <texto
+├💻${usedPrefix}pptiktok <nombre de usuario
+├💻${usedPrefix}igstalk <nombre de usuario
+├💻${usedPrefix}tiktokstalk <nombre de usuario
 └────ׂ─ׂ─ׂ─ׂ──
 
 ┌──「🏢𝐆𝐑𝐎𝐔𝐏」─
